@@ -1,0 +1,59 @@
+#!/bin/sh
+  
+# Author: Aceas24
+# ANSI Color -- use these variables to easily have different color
+#    and format output. Make sure to output the reset sequence after 
+#    colors (f = foreground, b = background), and use the 'off'
+#    feature for anything you turn on.
+
+initializeANSI()
+{
+  esc=""
+
+  redf="${esc}[31m";     greenf="${esc}[32m";
+  yellowf="${esc}[33m";   bluef="${esc}[34m";   
+  cyanf="${esc}[36m";    purplef="${esc}[35m";  
+  whitef="${esc}[97m";
+  
+  redfbright="${esc}[91m";     greenfbright="${esc}[92m";
+  yellowfbright="${esc}[93m";   bluefbright="${esc}[94m";   
+  cyanfbright="${esc}[96m";    purplefbright="${esc}[95m";   
+                      
+  boldon="${esc}[1m";    
+  reset="${esc}[0m";
+}
+
+
+initializeANSI
+
+
+cat << EOF
+
+${whitef} xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+           ${purplefbright}XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+           ${purplefbright}XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+           ${purplefbright}XXXXXX                       XXXXXX
+           ${purplefbright}XXXXXX                        XXXXXX
+           ${purplefbright}XXXXXX                         XXXXXX
+           ${purplefbright}XXXXXX                         XXXXXX
+     ${cyanfbright}AAAAAX${purplefbright}XXXXXX${cyanfbright}AAAAAAAAAAAAAAAAAAAAAAAAA${purplefbright}XXXXXX${cyanfbright}XAAAA
+     ${cyanfbright}AAAAAX${purplefbright}XXXXXX${cyanfbright}AAAAAAAAAAAAAAAAAAAAAAAAA${purplefbright}XXXXXX${cyanfbright}XAAAA
+     ${cyanfbright}AAAAAX${purplefbright}XXXXXX${cyanfbright}AAAAAAAAAAAAAAAAAAAAAAAAA${purplefbright}XXXXXX${cyanfbright}XAAAA
+           ${purplefbright}XXXXXX         ${cyanfbright}AAAA            ${purplefbright}XXXXXX
+           ${purplefbright}XXXXXX         ${cyanfbright}AAAA            ${purplefbright}XXXXXX
+           ${purplefbright}XXXXXX         ${cyanfbright}AAAA           ${purplefbright}XXXXXX
+           ${purplefbright}XXXXXX         ${cyanfbright}AAAA          ${purplefbright}XXXXXXX
+           ${purplefbright}XXXXXXXXXXXXXX ${cyanfbright}AAAA${purplefbright} XXXXXXXXXXXXXXX
+           ${purplefbright}XXXXXXXXXXXXXX ${cyanfbright}AAAA${purplefbright} XXXXXXXXXXXXXX
+                          ${cyanfbright}AAAA
+                          ${cyanfbright}AAAA
+                          ${cyanfbright}AAAA
+                          ${cyanfbright}AAAA
+                          ${cyanfbright}AAAA
+                          ${cyanfbright}AAAA
+                          ${cyanfbright}AAAA
+
+${whitef} xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ${rest}
+${redfbright}  XXXX ${redf}XXXX ${yellowfbright}XXXX ${yellowf}XXXX ${purplefbright}XXXX  ${purplef}XXXX ${greenfbright}XXXX ${greenf}XXXX ${cyanfbright}XXXX ${cyanf}XXXX ${whitef}XXXX
+EOF
