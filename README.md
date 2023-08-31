@@ -6,6 +6,9 @@ link: https://gitlab.com/dwt1/shell-color-scripts
 
 ![Screenshot of shell-color-scripts](https://gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles12.png)
 
+![Pichers of the colorscript 1](https://github.com/aceas24/shell-color-skripts/blob/main/img/dt1.png)
+![Pichers of the colorscript 2](https://github.com/aceas24/shell-color-skripts/blob/main/img/dt2.png)
+
 A collection of terminal color scripts I've accumulated over the years.
 Included 52 beautiful terminal color scripts.
 
