@@ -82,6 +82,3 @@ For even more fun, add the following line to your .bashrc or .zshrc and you will
 
 	### RANDOM COLOR SCRIPT ###
 	colorscript random
-
-![Pichers of the colorscript 1](https://github.com/aceas24/shell-color-skripts/blob/main/img/dt1.png)
-![Pichers of the colorscript 2](https://github.com/aceas24/shell-color-skripts/blob/main/img/dt2.png)
