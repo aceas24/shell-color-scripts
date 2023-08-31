@@ -1,6 +1,6 @@
 # shell-color-skripts
 ekstra colorscripts for DistroTube
-link: https://gitlab.com/dwt1/shell-color-scripts
+Source link: https://gitlab.com/dwt1/shell-color-scripts
 
 # Shell Color Scripts
 
